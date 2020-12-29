@@ -1,3 +1,7 @@
+// there's one to one mapping between the settings instance and their settings.gradle file
+// So, before gradle assembles the projects for a build it creates a settings instance
+// and execute the settings file against it
+
 include 'pickerNumberApplication1-complete', 'plusplus-complete', 'randomNumberGen1-complete'
 
 rootProject.name = 'allAboutNumbers-complete'
